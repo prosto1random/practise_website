@@ -12,6 +12,7 @@
 }
 .rows{
     display: flex;
+    justify-content: space-between;
 }
 
 .cart_img img{
