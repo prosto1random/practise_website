@@ -1,0 +1,20 @@
+
+.slides{
+    display: grid !important;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+.liked_section{
+    height: 800px;
+}
+
+.visible {
+    position: absolute;
+    visibility: visible;
+}
+
+.not-visible {
+    position: absolute;
+    visibility: hidden;
+}

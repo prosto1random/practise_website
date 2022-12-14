@@ -1,0 +1,19 @@
+.phones_section{
+    position: relative;
+    display: flex;
+    padding: 0 2%;
+    text-align: center;
+    height: 700px;
+    gap: 4rem;
+}
+
+.phones_section div{
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.phones_img img{
+    width: 700px;
+    margin-top: 200px;
+}

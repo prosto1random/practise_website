@@ -1,0 +1,35 @@
+.cart_section{
+    padding: 10% 15%;
+    height: 800px;
+    position: relative;
+}
+
+.hall_cart{
+    background: #F7F7F7;
+    padding: 2rem 2rem;
+    border-radius: 26px;
+
+}
+.rows{
+    display: flex;
+}
+
+.cart_img img{
+    margin-left: 20px;
+    width: 200px;
+}
+
+.visible {
+    position: absolute;
+    visibility: visible;
+}
+
+.not-visible {
+    position: absolute;
+    visibility: hidden;
+}
+
+.remove_buttons{
+    color: red;
+}
+

@@ -1,0 +1,41 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+
+:root{
+    --text_color: #1E1E1E;
+    --the_pink: #AD7067;
+    --h1_size: 62px;
+}
+
+.mobile_interface{
+    display: none;
+}
+
+@media screen and (max-width:  500px) {
+    .mobile_interface{
+        display: block;
+    }
+    .desktop_interface{
+        display: none;
+    }
+}
+
+.background{
+    background: linear-gradient(180deg, #7B7B7B 0%, rgba(214, 213, 213, 0.73) 54.65%);
+}
+
+.on_top_image img{
+    width: 320px;
+    position: absolute;
+    transform: rotate(-52.91deg);
+    left: 800px;
+    top: -140px;
+    z-index: 10000;
+}
+
+
+
+
+

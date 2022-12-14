@@ -1,0 +1,24 @@
+footer{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background: rgba(214, 213, 213, 0.73);
+}
+
+.footer_logos img{
+    width: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer div{
+    margin-left: auto;
+    margin-right: auto;
+}
+.side_text h1{
+    font-weight: 700;
+    font-size: 140px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+
+}

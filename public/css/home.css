@@ -1,0 +1,61 @@
+.home_menu{
+    text-shadow: 0 0 20px #C65443;
+}
+.home{
+    height: 100vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+
+}
+
+.home div{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.for_padding{
+    padding: 0 12%;
+}
+
+.home_text h1{
+    font-size: var(--h1_size);
+    font-weight: 700;
+}
+
+.home_text h5{
+    padding: 1% 0%;
+    font-size: 15px;
+    line-height: 128.4%;
+}
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+    background-color: var(--the_pink) !important;
+    border: var(--the_pink) !important;
+    padding: 10px 50px !important;
+    border-radius: 49px !important;
+}
+
+.btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited {
+    color: var(--text_color) !important;
+    background: transparent !important;
+    padding: 10px 50px !important;
+    border-radius: 49px !important;
+}
+
+
+.samsung_picture{
+    transform: rotate(270deg);
+    position: absolute;
+    width: 110px;
+    top: 50%;
+}
+
+.background_text{
+    position:absolute;
+    font-weight: 700;
+    font-size: 150px;
+}
+
+
+
