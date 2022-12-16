@@ -36,15 +36,14 @@ header{
     display:flex;
 }
 
-.icons_for_header svg{
-    transform: scale(1.2);
+.icons_for_header i{
+    font-size: 20px;
     align-items: start;
     margin-right: 25px;
     cursor: pointer;
     transition: all .55s ease;
 }
 
-.icons_for_header svg:hover{
-    transform: translateY(-5px);
+.icons_for_header i:hover{
     color: var(--the_pink);
 }

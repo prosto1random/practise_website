@@ -12,6 +12,7 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css">
     <script src="/css/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
     <title>Store</title>
 </head>
@@ -31,40 +32,3 @@
 
 
 
-
-
-
-
-
-{{--<section class ="store_icons">--}}
-{{--    <div class ="icons_img" onclick="itemToggle('iphone')" id="iphone">--}}
-{{--        <label>--}}
-{{--            <input type="checkbox">--}}
-{{--        </label>--}}
-{{--        <img src="img/115-1157174_46mm-galaxy-watch-in-silver-on-left-with%201.png" alt="">--}}
-{{--        <h5>--}}
-{{--            Galaxy Watch 5 series--}}
-{{--        </h5>--}}
-{{--    </div>--}}
-
-<script>
-    var cart = {}
-
-    var prices = {
-        'iphone' : 300,
-        'z_flip' : 400,
-    }
-
-    function itemToggle(key){
-        console.log('lala')
-        let element = document.getElementById(key)
-        if(cart[key] && cart[key] === true) {
-            cart[key] = false
-            element.classList.remove('chosen')
-        }
-        else{
-            cart[key] = true
-            element.classList.add('chosen')
-        }
-    }
-</script>

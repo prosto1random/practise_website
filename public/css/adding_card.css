@@ -1,0 +1,29 @@
+
+.card_section{
+    justify-content: center;
+    height: 800px;
+    background: rgba(214, 213, 213, 0.73);
+    padding: 10% 30%;
+}
+
+.the_form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background: white;
+    padding: 5%  8%;
+}
+.the_info h1{
+
+}
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+    border: rgba(214, 213, 213, 0.73) !important;
+    color: var(--text_color) !important;
+    background: rgba(214, 213, 213, 0.73) !important;
+}
+
+
+.btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited {
+    background-color: var(--the_pink) !important;
+    border: var(--the_pink) !important;
+}

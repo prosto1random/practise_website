@@ -30,3 +30,7 @@ Route::get('/store', function() {
 Route::get('/liked', function() {
     return view('liked');
 })->name('liked');
+
+Route::get('/adding_card', function() {
+    return view('adding_card');
+})->name('adding_card');

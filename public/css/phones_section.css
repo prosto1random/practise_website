@@ -5,15 +5,11 @@
     text-align: center;
     height: 700px;
     gap: 4rem;
+    justify-content: space-between;
 }
 
-.phones_section div{
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 .phones_img img{
-    width: 700px;
+    width: 600px;
     margin-top: 200px;
 }
