@@ -1,27 +1,21 @@
 
 .show_liked{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 2rem;
+    text-align: center;
     padding: 10% 7%;
 }
 
 .show_liked .card{
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1%;
+    display: inline-block;
     border-radius: 10%;
     background: #FFFFFF;
 }
 
 
-
-
-.visible {
-    position: absolute;
-    visibility: visible;
+.not-visible {
+    display: none;
 }
 
-.not-visible {
-    position: absolute;
-    visibility: hidden;
+.card-title{
+    font-size: 18px !important;
 }

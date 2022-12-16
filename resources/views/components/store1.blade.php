@@ -163,14 +163,8 @@
 
 <script>
     let cart = {
-        'samsung_ear' : false,
-        'apple_ear' : false,
-        'iphone' : false,
-        'samsung_phone' : false,
-        'apple_watch' : false,
-        'samsung_watch': false
-    }
 
+    }
 
     function toggleClass(key){
         let elem = document.getElementById(key)

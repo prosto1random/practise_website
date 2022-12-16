@@ -1,6 +1,5 @@
 .cart_section{
     padding: 10% 15%;
-    height: 800px;
     position: relative;
 }
 
@@ -11,8 +10,10 @@
 
 }
 .rows{
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .cart_img img{
@@ -33,4 +34,10 @@
     background: transparent !important;
     padding: 10px 50px !important;
     border-radius: 49px !important;
+}
+
+.first_half{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
